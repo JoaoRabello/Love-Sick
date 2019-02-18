@@ -3,9 +3,12 @@
 public class Player : MonoBehaviour {
 
     [SerializeField] private float mySpeed = 3f;
+    [SerializeField] private Bullet bullet;
+    private Bullet bulletInstance;
 
     private Rigidbody2D myRigidbody;
     private Vector2 northeast, northwest, southeast, southwest;
+    private Vector3 mousePos;
 
     void Start () {
 
@@ -18,9 +21,12 @@ public class Player : MonoBehaviour {
 	void Update () {
 
         GetMovementInput();
+        GetMouseInput();
     }
 
     #region Methods
+    
+    #region Movement
     void GetMovementInput()
     {
         if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
@@ -99,5 +105,24 @@ public class Player : MonoBehaviour {
                 break;
         }
     }
+    #endregion
+
+    #region Attack
+    void GetMouseInput()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        bulletInstance = Instantiate(bullet, transform.position, Quaternion.identity);
+        bulletInstance.mousePos = (mousePos - transform.position).normalized;
+    }
+    #endregion
+    
     #endregion
 }
