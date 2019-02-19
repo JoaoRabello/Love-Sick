@@ -5,6 +5,12 @@ public class Player : MonoBehaviour {
     [SerializeField] private float mySpeed = 3f;
     [SerializeField] private Bullet bullet;
     private Bullet bulletInstance;
+    private string weapon;
+    private float timeBtwAttack;
+    private float timer = 0f;
+
+    public bool canMove   = false;
+    public bool canAttack = false;
 
     private Rigidbody2D myRigidbody;
     private Vector2 northeast, northwest, southeast, southwest;
@@ -19,13 +25,26 @@ public class Player : MonoBehaviour {
 	}
 	
 	void Update () {
+        if(canMove)
+            GetMovementInput();
+        if(canAttack)
+            GetMouseInput();
+    }
 
-        GetMovementInput();
-        GetMouseInput();
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("MachineGun"))
+        {
+            Destroy(col.gameObject);
+            weapon = "machinegun";
+            timeBtwAttack = 0.2f;
+            timer = timeBtwAttack + 1f;
+            Debug.Log("Pegou Machine Gun!");
+        }
     }
 
     #region Methods
-    
+
     #region Movement
     void GetMovementInput()
     {
@@ -110,10 +129,29 @@ public class Player : MonoBehaviour {
     #region Attack
     void GetMouseInput()
     {
-        if (Input.GetMouseButtonDown(0))
+        if(weapon == "machinegun")
         {
-            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Shoot();
+            if (Input.GetMouseButton(0))
+            {
+                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                if (timer >= timeBtwAttack)
+                {
+                    Shoot();
+                    timer = 0f;
+                }
+                else
+                {
+                    timer += Time.deltaTime;
+                }
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Shoot();
+            }
         }
     }
 
@@ -122,6 +160,7 @@ public class Player : MonoBehaviour {
         bulletInstance = Instantiate(bullet, transform.position, Quaternion.identity);
         bulletInstance.mousePos = (mousePos - transform.position).normalized;
     }
+
     #endregion
     
     #endregion
