@@ -4,6 +4,8 @@ public class Player : MonoBehaviour {
 
     [SerializeField] private float mySpeed = 3f;
     [SerializeField] private Bullet bullet;
+    [SerializeField] private GameObject[] weapons = new GameObject[4];
+
     private Bullet bulletInstance;
     private string weapon;
     private float timeBtwAttack;
@@ -36,11 +38,24 @@ public class Player : MonoBehaviour {
         if (col.gameObject.CompareTag("MachineGun"))
         {
             Destroy(col.gameObject);
-            weapon = "machinegun";
-            timeBtwAttack = 0.2f;
+            weapon = "MachineGun";
+            SetWeapon(weapon);
+            timeBtwAttack = 0.3f;
             timer = timeBtwAttack + 1f;
-            Debug.Log("Pegou Machine Gun!");
         }
+        if (col.gameObject.CompareTag("Pistol"))
+        {
+            Destroy(col.gameObject);
+            weapon = "Pistol";
+            SetWeapon(weapon);
+        }
+        if (col.gameObject.CompareTag("Sword"))
+        {
+            Destroy(col.gameObject);
+            weapon = "Sword";
+            SetWeapon(weapon);
+        }
+
     }
 
     #region Methods
@@ -129,7 +144,7 @@ public class Player : MonoBehaviour {
     #region Attack
     void GetMouseInput()
     {
-        if(weapon == "machinegun")
+        if(weapon == "MachineGun")
         {
             if (Input.GetMouseButton(0))
             {
@@ -157,11 +172,31 @@ public class Player : MonoBehaviour {
 
     void Shoot()
     {
-        bulletInstance = Instantiate(bullet, transform.position, Quaternion.identity);
+        bulletInstance = Instantiate(bullet, ((mousePos - transform.position).normalized)* 6f + transform.position, Quaternion.identity);
         bulletInstance.mousePos = (mousePos - transform.position).normalized;
     }
 
     #endregion
-    
+
+    #region Visual
+
+    void SetWeapon(string w)
+    {
+        foreach(GameObject weaponGO in weapons)
+        {
+            if (weaponGO.CompareTag(w))
+            {
+                Debug.Log("Tem a tag");
+                weaponGO.SetActive(true);
+            }
+            else
+            {
+                weaponGO.SetActive(false);
+            }
+        }
+    }
+
+    #endregion
+
     #endregion
 }
