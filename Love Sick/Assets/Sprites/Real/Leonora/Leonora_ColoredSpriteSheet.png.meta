@@ -1,0 +1,867 @@
+fileFormatVersion: 2
+guid: 3b77153d5aad7e440899d2d6e1032947
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Leonora_ColoredSpriteSheet_0
+    21300002: Leonora_ColoredSpriteSheet_1
+    21300004: Leonora_ColoredSpriteSheet_2
+    21300006: Leonora_ColoredSpriteSheet_3
+    21300008: Leonora_ColoredSpriteSheet_4
+    21300010: Leonora_ColoredSpriteSheet_5
+    21300012: Leonora_ColoredSpriteSheet_6
+    21300014: Leonora_ColoredSpriteSheet_7
+    21300016: Leonora_ColoredSpriteSheet_8
+    21300018: Leonora_ColoredSpriteSheet_9
+    21300020: Leonora_ColoredSpriteSheet_10
+    21300022: Leonora_ColoredSpriteSheet_11
+    21300024: Leonora_ColoredSpriteSheet_12
+    21300026: Leonora_ColoredSpriteSheet_13
+    21300028: Leonora_ColoredSpriteSheet_14
+    21300030: Leonora_ColoredSpriteSheet_15
+    21300032: Leonora_ColoredSpriteSheet_16
+    21300034: Leonora_ColoredSpriteSheet_17
+    21300036: Leonora_ColoredSpriteSheet_18
+    21300038: Leonora_ColoredSpriteSheet_19
+    21300040: Leonora_ColoredSpriteSheet_20
+    21300042: Leonora_ColoredSpriteSheet_21
+    21300044: Leonora_ColoredSpriteSheet_22
+    21300046: Leonora_ColoredSpriteSheet_23
+    21300048: Leonora_ColoredSpriteSheet_24
+    21300050: Leonora_ColoredSpriteSheet_25
+    21300052: Leonora_ColoredSpriteSheet_26
+    21300054: Leonora_ColoredSpriteSheet_27
+    21300056: Leonora_ColoredSpriteSheet_28
+    21300058: Leonora_ColoredSpriteSheet_29
+    21300060: Leonora_ColoredSpriteSheet_30
+    21300062: Leonora_ColoredSpriteSheet_31
+    21300064: Leonora_ColoredSpriteSheet_32
+    21300066: Leonora_ColoredSpriteSheet_33
+    21300068: Leonora_ColoredSpriteSheet_34
+    21300070: Leonora_ColoredSpriteSheet_35
+    21300072: Leonora_ColoredSpriteSheet_36
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 175
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 3060
+        width: 202
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21ed8e38574ce343a99246e12e412ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3057
+        width: 202
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fdcced97e4cb449b02ec7cb4362cf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2741
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3dda81875c5024aa883fb73d17a652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2738
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc72f0b0986351e4b9aff6aeb09af64c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 2738
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af378050ff661d46933571ded6cc6d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2737
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b913c445bcade47bdef55d0ea17249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2417
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55703239032d8c946ab693f17d74b16b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2416
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1afeb2ffd0a34587cec7c78a546f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2411
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2837372a34e08fe479643b9b77b9b8ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2417
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918cc424b8181f449b2c56792bf45a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2099
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adddb65259616d7489beb5067a58dd6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2098
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8002b779fbd1dcb4789e56ae6c3fb292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2100
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e8595ad9f84284d9387b6edf6474f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2099
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf24f076cac39c43895d9b40ae3aa6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1794
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13a3e01fda1f64eb1301be9d2e93cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1795
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cb6f2a8a640694f8413c036664b5a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1795
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e41aad85f4effa4c83e0078af56fca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1794
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4e192962e9ae64d800341eb02b536d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1487
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff624d04f4792048ac2670d38ebb54b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1485
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502c4334031c6014880f8cf3f73fccb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1494
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb73172ada4cb46a51fff3dbf5379b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1484
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74dd2fcd5d611e499356d73d4f55794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1155
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31002a8531da4544484c24b09e93d6a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1154
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffff1abab564968408645b2c58a109aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1165
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314d40bd9ac75d84eaf1e483813a8600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1152
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e9fd2d5d1b6a947876a4be1d28e917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 839
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4648221bdf2d5f643af273cf8425d928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 840
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ba7b7a02014674190fbd2a722420df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 842
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f98c4d083fc994eb2a3013d31cf2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 836
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292e55274975254f981294b27a67d2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 520
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954e8edf227a2db4ba68324c087edc7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 519
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e932899c316409749935d85b470f3ca7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 527
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07a9f16809367440b7c9095347a823c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 517
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d68857f8f4684141ba2b59d983f3036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 240
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c4ec5dd2b47043a37360d9569ef3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_ColoredSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 238
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be81dc3038031b438226f47e5e6d9aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 89f7b7d1f8604714fb055e2a4ea2e2d4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,18 +7,22 @@ public class Player : MonoBehaviour {
     [SerializeField] private GameObject[] weapons = new GameObject[4];
 
     private Bullet bulletInstance;
-    private string weapon;
+    private string weapon = null;
     private float timeBtwAttack;
     private float timer = 0f;
 
-    public bool canMove   = false;
+    public bool canMove = false;
     public bool canAttack = false;
 
     private Rigidbody2D myRigidbody;
+    private Animator myAnimator;
+    [SerializeField] private Transform actualWeaponTF;
     private Vector2 northeast, northwest, southeast, southwest;
     private Vector3 mousePos;
 
     void Start () {
+
+        myAnimator = GetComponent<Animator>();
 
         northeast = new Vector2(0.75f,0.75f);
         northwest = new Vector2(-0.75f, 0.75f);
@@ -31,6 +35,8 @@ public class Player : MonoBehaviour {
             GetMovementInput();
         if(canAttack)
             GetMouseInput();
+        if (weapon != null)
+            Animate();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -63,6 +69,8 @@ public class Player : MonoBehaviour {
     #region Movement
     void GetMovementInput()
     {
+        
+
         if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
         {
             Move("WD");
@@ -111,6 +119,7 @@ public class Player : MonoBehaviour {
 
     void Move(string direction)
     {
+        myAnimator.SetBool("isWalking", true);
         switch (direction)
         {
             case "Up":
@@ -144,6 +153,7 @@ public class Player : MonoBehaviour {
     #region Attack
     void GetMouseInput()
     {
+
         if(weapon == "MachineGun")
         {
             if (Input.GetMouseButton(0))
@@ -186,12 +196,79 @@ public class Player : MonoBehaviour {
         {
             if (weaponGO.CompareTag(w))
             {
-                Debug.Log("Tem a tag");
                 weaponGO.SetActive(true);
+                actualWeaponTF = weaponGO.transform;
             }
             else
             {
                 weaponGO.SetActive(false);
+            }
+        }
+    }
+
+    void Animate()
+    {
+        float rotation = actualWeaponTF.localEulerAngles.z;
+        Debug.Log("Rotation: " + rotation);
+        if ((rotation <= 22.5f && rotation > 0f) || (rotation < 360f && rotation > 337.5f))
+        {
+            myAnimator.SetFloat("x", 0f);
+            myAnimator.SetFloat("y", 1f);
+        }
+        else
+        {
+            if (rotation <= 337.5f && rotation > 292.5f)
+            {
+                myAnimator.SetFloat("x", 1f);
+                myAnimator.SetFloat("y", 1f);
+            }
+            else
+            {
+                if (rotation <= 292.5f && rotation > 247.5f)
+                {
+                    myAnimator.SetFloat("x", 1f);
+                    myAnimator.SetFloat("y", 0);
+                }
+                else
+                {
+                    if (rotation <= 247.5f && rotation > 202.5f)
+                    {
+                        myAnimator.SetFloat("x", 1f);
+                        myAnimator.SetFloat("y", -1f);
+                    }
+                    else
+                    {
+                        if (rotation <= 202.5f && rotation > 157.5f)
+                        {
+                            myAnimator.SetFloat("x", 0);
+                            myAnimator.SetFloat("y", -1f);
+                        }
+                        else
+                        {
+                            if (rotation <= 157.5f && rotation > 112.5f)
+                            {
+                                myAnimator.SetFloat("x", -1f);
+                                myAnimator.SetFloat("y", -1f);
+                            }
+                            else
+                            {
+                                if (rotation <= 112.5f && rotation > 67.5f)
+                                {
+                                    myAnimator.SetFloat("x", -1f);
+                                    myAnimator.SetFloat("y", 0);
+                                }
+                                else
+                                {
+                                    if (rotation <= 67.5f && rotation > 22.5f)
+                                    {
+                                        myAnimator.SetFloat("x", -1f);
+                                        myAnimator.SetFloat("y", 1f);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

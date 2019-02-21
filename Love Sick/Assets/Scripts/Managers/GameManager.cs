@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-    private float timeToExplore = 10f;
     private float timer = 0f;
     public Text timerTxt;
 

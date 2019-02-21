@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: c6e40b6d5ff5a014b880881642f1ca67
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Leonora_SpriteSheet_0
+    21300002: Leonora_SpriteSheet_1
+    21300004: Leonora_SpriteSheet_2
+    21300006: Leonora_SpriteSheet_3
+    21300008: Leonora_SpriteSheet_4
+    21300010: Leonora_SpriteSheet_5
+    21300012: Leonora_SpriteSheet_6
+    21300014: Leonora_SpriteSheet_7
+    21300016: Leonora_SpriteSheet_8
+    21300018: Leonora_SpriteSheet_9
+    21300020: Leonora_SpriteSheet_10
+    21300022: Leonora_SpriteSheet_11
+    21300024: Leonora_SpriteSheet_12
+    21300026: Leonora_SpriteSheet_13
+    21300028: Leonora_SpriteSheet_14
+    21300030: Leonora_SpriteSheet_15
+    21300032: Leonora_SpriteSheet_16
+    21300034: Leonora_SpriteSheet_17
+    21300036: Leonora_SpriteSheet_18
+    21300038: Leonora_SpriteSheet_19
+    21300040: Leonora_SpriteSheet_20
+    21300042: Leonora_SpriteSheet_21
+    21300044: Leonora_SpriteSheet_22
+    21300046: Leonora_SpriteSheet_23
+    21300048: Leonora_SpriteSheet_24
+    21300050: Leonora_SpriteSheet_25
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3054
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdc408f00a7cec40ae9d738d1994854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2721
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2352490a74ba0864cadc2d8c1bb0e1d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2731
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72f17c8cbc4eb342af5fda521f14ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2728
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf463588e1b417b43bac57cec5ca793a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2407
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e609a90e52477b4a8cbd6816c0ad479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2415
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fb0afa8516264689c086a3cefda78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2415
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4779d73c66779424b9c07100b8bc6f7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2093
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55c4f68529980d459adc0d3077558a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2098
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4593276d5e495004c9275d79a5b3272d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2113
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58943933f7816374b94af840b47890fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1808
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a7d13522b9ede4996f57cb5748b7e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1807
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6430add51a0ca01499651e61f3598b9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1803
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c13275521bbbbb4683c221c0076b366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1468
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b431db0d2509c1d4cb47cc4b2a9da049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1485
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee342f6dbf9c8c4080f0f21eb9d62bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1496
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592d1de28f2eb2469a4696648eab6f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1171
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc71a33fcec3e469e8309daa0b11f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1161
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0270fe376eaa5934bb9dd3d70839593c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1165
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9da07d71987d347a19b07372ad6a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 832
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2f72703885c642a8149fcb809ac9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 840
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b7944b9e3413498a0cb16c202030c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 845
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c7d6c0f771a7f4582d8cf38cf743f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 536
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b190f1cf70ca84f81799876dd23f04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 528
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6d32c216ab7948bb788e4d79c2366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 525
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b10dcbff73cea049a7d1fa4af91e25c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leonora_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 250
+        width: 205
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01951fae7d97aa4f8a941a0671aa3bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c0355a6dc358ea54cb1710a02997c22c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
