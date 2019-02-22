@@ -3,7 +3,7 @@
 public class Player : MonoBehaviour {
 
     [SerializeField] private float mySpeed = 3f;
-    [SerializeField] private Bullet bullet;
+    [SerializeField] private Bullet[] bullet = new Bullet[4];
     [SerializeField] private GameObject[] weapons = new GameObject[4];
 
     private Bullet bulletInstance;
@@ -31,9 +31,15 @@ public class Player : MonoBehaviour {
 	}
 	
 	void Update () {
-        if(canMove)
+        if (canMove)
+        {
             GetMovementInput();
-        if(canAttack)
+            if(Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+            {
+                myAnimator.SetBool("isWalking", false);
+            }
+        }
+        if (canAttack)
             GetMouseInput();
         if (weapon != null)
             Animate();
@@ -46,7 +52,7 @@ public class Player : MonoBehaviour {
             Destroy(col.gameObject);
             weapon = "MachineGun";
             SetWeapon(weapon);
-            timeBtwAttack = 0.3f;
+            timeBtwAttack = 0.15f;
             timer = timeBtwAttack + 1f;
         }
         if (col.gameObject.CompareTag("Pistol"))
@@ -59,6 +65,12 @@ public class Player : MonoBehaviour {
         {
             Destroy(col.gameObject);
             weapon = "Sword";
+            SetWeapon(weapon);
+        }
+        if (col.gameObject.CompareTag("GrenadeLauncher"))
+        {
+            Destroy(col.gameObject);
+            weapon = "GrenadeLauncher";
             SetWeapon(weapon);
         }
 
@@ -153,36 +165,50 @@ public class Player : MonoBehaviour {
     #region Attack
     void GetMouseInput()
     {
-
-        if(weapon == "MachineGun")
+        switch (weapon)
         {
-            if (Input.GetMouseButton(0))
-            {
-                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                if (timer >= timeBtwAttack)
+            case "MachineGun":
+                if (Input.GetMouseButton(0))
                 {
-                    Shoot();
-                    timer = 0f;
+                    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    if (timer >= timeBtwAttack)
+                    {
+                        Shoot(bullet[2]);
+                        timer = 0f;
+                    }
+                    else
+                    {
+                        timer += Time.deltaTime;
+                    }
                 }
-                else
+                break;
+            case "Pistol":
+                if (Input.GetMouseButtonDown(0))
                 {
-                    timer += Time.deltaTime;
+                    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    Shoot(bullet[0]);
                 }
-            }
-        }
-        else
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                Shoot();
-            }
+                break;
+            case "Sword":
+                if (Input.GetMouseButtonDown(0))
+                {
+                    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    Shoot(bullet[1]);
+                }
+                break;
+            case "GrenadeLauncher":
+                if (Input.GetMouseButtonDown(0))
+                {
+                    mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    Shoot(bullet[3]);
+                }
+                break;
         }
     }
 
-    void Shoot()
+    void Shoot(Bullet bullet)
     {
-        bulletInstance = Instantiate(bullet, ((mousePos - transform.position).normalized)* 6f + transform.position, Quaternion.identity);
+        bulletInstance = Instantiate(bullet, ((mousePos - transform.position).normalized)* 6f + transform.position, actualWeaponTF.localRotation);
         bulletInstance.mousePos = (mousePos - transform.position).normalized;
     }
 

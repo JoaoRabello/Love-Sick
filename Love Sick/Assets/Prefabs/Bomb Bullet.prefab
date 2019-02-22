@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114745264264987528}
   - component: {fileID: 50031789700684742}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bomb Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,8 +73,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ef1dd8e1c367845bb532b5bdb5a2d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySpeed: 30
+  mySpeed: 0.75
   mousePos: {x: 0, y: 0, z: 0}
+  bulletType: 
+  gota: {fileID: 0}
+  timeToDestroy: 1
 --- !u!212 &212172387384017450
 SpriteRenderer:
   m_ObjectHideFlags: 1
